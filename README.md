@@ -19,9 +19,10 @@ import {Bitmap} from "ez-bitmap/src/Bitmap.sol";
 
 contract MyCon {
     Bitmap internal map;
+    uint8 constant firstBitIndex = 0;
 
     function setFirstBitToTrue() public {
-        map = map.set(0);
+        map = map.set(firstBitIndex);
     }
 }
 ```
