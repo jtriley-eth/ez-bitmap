@@ -10,6 +10,14 @@ code (assembly) can be used more safely in high level applications.
 > NOTICE: This is experimental. Unit tests have been written, but no formal reviews or audits have
 > been conducted.
 
+## Installation
+
+For installation with foundry, use the following:
+
+```bash
+forge install JoshuaTrujillo15/ez-bitmap
+```
+
 ## Usage
 
 The type can be used by importing from this library as follows.
