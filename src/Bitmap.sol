@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.16;
+pragma solidity ^0.8.17;
 
 // Used for masking.
-uint256 constant MASK = 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff;
+uint256 constant MASK = (1 << 256) - 1;
 
 // Alias to uint256. Stored on the stack.
 type Bitmap is uint256;

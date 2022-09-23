@@ -23,6 +23,8 @@ forge install JoshuaTrujillo15/ez-bitmap
 The type can be used by importing from this library as follows.
 
 ```solidity
+pragma solidity ^0.8.13;
+
 import {Bitmap} from "ez-bitmap/src/Bitmap.sol";
 
 contract MyCon {
